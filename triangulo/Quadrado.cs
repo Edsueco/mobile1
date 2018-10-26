@@ -48,8 +48,5 @@ namespace triangulo
             return ladoD.ToString();
         }
 
-        public Quadrado()
-        {
-        }
     }
 }

@@ -37,9 +37,5 @@ namespace triangulo
             return ladoC.ToString();
         }
 
-        public Triangulo()
-        {
-
-        }
     }
 }
