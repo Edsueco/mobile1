@@ -8,23 +8,19 @@ namespace triangulo
         {
             Triangulo t = new Triangulo();
 
-            t.ladoA = 12;
-            t.ladoB = 13;
-            t.ladoC = 14;
-
             Console.WriteLine("Informe o lado A: ");
-            t.ladoA = Int32.Parse(Console.ReadLine());
+            t.setladoA(Int32.Parse(Console.ReadLine()));
 
             Console.WriteLine("Informe o lado B: ");
-            t.ladoB = Int32.Parse(Console.ReadLine());
+            t.setladoB(Int32.Parse(Console.ReadLine()));
 
             Console.WriteLine("Informe o lado C: ");
-            t.ladoC = Int32.Parse(Console.ReadLine());
+            t.setladoC(Int32.Parse(Console.ReadLine()));
 
             Console.WriteLine("\nValores informado pelo usuario:");
-            Console.WriteLine("Lado A: " + t.ladoA);
-            Console.WriteLine("Lado B: " + t.ladoB);
-            Console.WriteLine("Lado C: " + t.ladoC);
+            Console.WriteLine("Lado A: " + t.getladoA());
+            Console.WriteLine("Lado B: " + t.getladoB());
+            Console.WriteLine("Lado C: " + t.getladoC());
         }
     }
 }
