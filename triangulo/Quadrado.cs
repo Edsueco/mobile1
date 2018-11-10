@@ -48,5 +48,9 @@ namespace triangulo
             return ladoD.ToString();
         }
 
+        public int SomarLados()
+        {
+            return ladoA + ladoB + ladoC + ladoD;
+        }
     }
 }
